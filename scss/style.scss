@@ -114,6 +114,10 @@
 
          }
       }
+
+      a {
+         display: none;
+      }
    }
 }
 
@@ -225,3 +229,4 @@
 // MEDIA QUERIES
 
 @include medium-devices;
+@include small-devices;
